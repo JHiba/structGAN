@@ -17,3 +17,13 @@ floorplan_pngs/ – Folder where .mat files are converted to PNG
 
 pix.py/SimpleUNet – Model definition (imported as needed)
 
+
+# Install dependencies:
+pip install -r requirements.txt
+
+# Notes
+Training:
+If you want to retrain or fine-tune the model, you need paired input (floorplan) and output (shear wall annotation) images. See pix.py.
+
+# Inference:
+For new floorplans, upload .mat files and receive predicted shear wall (red lines) PNGs.
