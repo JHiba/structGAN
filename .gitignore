@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# Virtual env
+.venv/
+venv/
+env/
+struct-venv/
+
+# Data files
+*.mat
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model checkpoints and outputs
+*.pth
+outputs_pix2pix1/
+*.log
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Python cache
+*.egg-info/
+build/
+dist/
+
+# pipenv
+Pipfile.lock
+
+# Misc
+*.bak
